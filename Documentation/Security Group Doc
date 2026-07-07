@@ -1,0 +1,11 @@
+Domain Name: NMG.com
+
+OUs created: Finanace, HR, IT, Operations
+
+Purpose of each OU: It's where you put users and organize them by department. Finance OU for financial. HR OU. IT OU. Operations OU.
+
+Security Groups Created: Finanace-Users, HR-Users, IT-Users, Operations-Users
+
+Purpose of security group: The security group is a container for users that determines what access they're granted. I created a Finance-Users group. Anyone in that group automatically gets Finance access to accounts or financial folders. I created a HR-Users group.  Anyone in that group automatically gets HR access for resources needed within that department. I created a IT-Users group. Anyone in that group automatically gets IT access to computers for technical issues. I created a Operations-Users group. Anyone in that group automatically gets Operations access for oversight in the operations. Anyone outside of these departments will not have access nor gain access without the correct permission.
+
+Date completed: 7/3/2026

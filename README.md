@@ -1,10 +1,10 @@
 # Basic Employee Onboarding (AD)(RBAC)
 
 ## Problem Statement
-I was hired at Northstar Medical Group due to the MSP mismanagement, which created lack of structure,and inconsistent permissions. This was a problem would caused an issue with HIPAA and it posed high risks. These high risks could lead to large fines due to compliance issues.
+I was brought on by Northstar Medical Group during a period when inconsistent user accounts were being mismanaged by MSP. The existing environment lacked structure approach to user organization and security. This created a compliance risk with HIPPA, which could lead to potentially large fines due to the infrastructure not meeting standards. 
 
 ## Solution Overview
-I created Organizational Units (OUs) for Northstar Medical Group to organize users by department, ensuring proper administrative structure and access management. I then created department-specific security groups to simplify permission management and enforce role-based access control.
+I implemented a more organized Active Directory structure by creating Organizational Units (OUs) for Northstar Medical Group to organize users by department, ensuring proper administrative structure and access management. I then created department-specific security groups to simplify permission management and enforce role-based access control.
 Each security group serves as a centralized method for assigning permissions, allowing only authorized members to access the resources required for their respective departments. Departmental resources remain isolated, preventing unauthorized access across departments without the appropriate permissions.
 Finally, I verified that all users were assigned to the correct security groups based on the provided requirements, ensuring accurate access control and compliance with the organization’s security policies.
 

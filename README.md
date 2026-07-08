@@ -1,10 +1,10 @@
 # Basic Employee Onboarding (AD)(RBAC)
 
 ## Problem Statement
-[Provide 3 to 5 sentences describing what was broken at Northstar Medical Group. Mention the MSP mismanagement, lack of structure, manual processes, and HIPAA risks that existed before your project.]
+I was hired at NorthStar due to the MSP mismanagement, which created lack of structure,and inconsistent permissions. This was a problem would caused an issue with HIPAA and it posed high risks. These high risks could lead to large fines due to compliance issues.
 
 ## Solution Overview
-[Provide 4 to 6 sentences describing what you built and how it solved the problem. Cover the new domain creation, the structural OU design, the security groups, the flat RBAC model, and how user provisioning was secured.]
+I created OU's (Finance, IT, HR, Operations) to organize each user by department to ensure they have the correct permissions. I then created security groups as a container for each user, which allows what access they are granted. For eacj securirty group only the users apart will be able to gain resources as needed per the department. Each department is a seperate entty and another department does not allow for access to another. I confirmed all users were assigned to correct security groups per the information provided. 
 
 ## Video Walkthrough
 [Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
@@ -26,5 +26,7 @@
 
 ## Key Accomplishments
 * Built NMG.com domain from scratch
-* [Add your second key accomplishment here]
-* [Add your third key accomplishment here]
+* Designed department-based OU structure
+* Provisioned 15 user accounts with consistent naming conventions and attribute standards
+* Diagnosed and resolved a multi-cause access issue (wrong OU + missing group membership)
+* Documented full incident resolution with root cause analysis

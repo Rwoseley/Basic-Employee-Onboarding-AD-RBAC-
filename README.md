@@ -1,10 +1,12 @@
 # Basic Employee Onboarding (AD)(RBAC)
 
 ## Problem Statement
-I was hired at NorthStar due to the MSP mismanagement, which created lack of structure,and inconsistent permissions. This was a problem would caused an issue with HIPAA and it posed high risks. These high risks could lead to large fines due to compliance issues.
+I was hired at Northstar Medical Group due to the MSP mismanagement, which created lack of structure,and inconsistent permissions. This was a problem would caused an issue with HIPAA and it posed high risks. These high risks could lead to large fines due to compliance issues.
 
 ## Solution Overview
-I created OU's (Finance, IT, HR, Operations) to organize each user by department to ensure they have the correct permissions. I then created security groups as a container for each user, which allows what access they are granted. For eacj securirty group only the users apart will be able to gain resources as needed per the department. Each department is a seperate entty and another department does not allow for access to another. I confirmed all users were assigned to correct security groups per the information provided. 
+I created Organizational Units (OUs) for Northstar Medical Group to organize users by department, ensuring proper administrative structure and access management. I then created department-specific security groups to simplify permission management and enforce role-based access control.
+Each security group serves as a centralized method for assigning permissions, allowing only authorized members to access the resources required for their respective departments. Departmental resources remain isolated, preventing unauthorized access across departments without the appropriate permissions.
+Finally, I verified that all users were assigned to the correct security groups based on the provided requirements, ensuring accurate access control and compliance with the organization’s security policies.
 
 ## Video Walkthrough
 [Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]

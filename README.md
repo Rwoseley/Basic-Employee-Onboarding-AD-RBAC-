@@ -9,7 +9,7 @@ Each security group serves as a centralized method for assigning permissions, al
 Finally, I verified that all users were assigned to the correct security groups based on the provided requirements, ensuring accurate access control and compliance with the organization’s security policies.
 
 ## Video Walkthrough
-()
+(https://www.loom.com/share/5089292d025c4552935c72a6f1533c82)
 
 ## Tools Used
 * Windows Server
